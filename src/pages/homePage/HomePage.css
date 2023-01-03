@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap'); 
+
+.homepage-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10px;
+}
+
+.homepage-btn {
+  font-family: "Italiana";
+  font-size: 80px;
+  border: none;
+  background-color: white;
+}
+
+.homepage-btn:hover {
+  font-style: italic;
+}
+
+.home-name {
+  font-family: "Montserrat";
+  margin: 100px 0 0 30px;
+}
+
+.home-job-title {
+  font-family: "Montserrat";
+  margin: 5px 0 30px 30px;
+}
