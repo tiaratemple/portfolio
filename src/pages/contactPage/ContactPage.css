@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap'); 
 
 .contact-content-container {
-  background-color: black;
+  background-color: #231F20;
   color: white;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
 }
 
 .connect-btn {
-  background-color: black;
+  background-color: #231F20;
   color: white;
   border: none;
   font-family: "Montserrat";

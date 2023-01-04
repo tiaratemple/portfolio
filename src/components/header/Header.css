@@ -18,7 +18,11 @@
   font-family: "Montserrat";
   font-size: 15px;
   border: none;
-  background-color: white;
+  background-color: #FAF4F0;
+ }
+
+ .nav-btn:hover {
+  text-decoration: line-through;
  }
 
  .nav-line {
