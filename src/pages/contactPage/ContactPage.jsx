@@ -12,12 +12,20 @@ const ContactPage = () => {
         It would be my pleasure to help you bring your website to life.
       </p>
       <div className="link-contaner">
-        <a href="https://www.linkedin.com/in/tiaratempledev/">
+        <a
+          href="https://www.linkedin.com/in/tiaratempledev/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="connect-btn">
             <BsLinkedin className="contact-icon" />
           </button>
         </a>
-        <a href="https://github.com/tiaratemple">
+        <a
+          href="https://github.com/tiaratemple"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="connect-btn">
             <BsGithub className="contact-icon" />
           </button>
