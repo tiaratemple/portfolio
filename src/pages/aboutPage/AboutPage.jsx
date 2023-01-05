@@ -34,6 +34,9 @@ const AboutPage = () => {
         <p>Postgres</p>
         <p>Express</p>
       </div>
+      <Link to="/projects">
+        <button className="aboutpage-projects-btn">Projects</button>
+      </Link>
       <Link to="/contact">
         <button className="aboutpage-contact-btn">Contact me</button>
       </Link>
