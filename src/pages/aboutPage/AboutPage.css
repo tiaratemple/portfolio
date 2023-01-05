@@ -63,7 +63,7 @@ p {
   width: 80%;
 }
 
-.aboutpage-contact-btn {
+.aboutpage-contact-btn, .aboutpage-projects-btn {
   font-family: "Italiana";
   font-size: 15px;
   color: #FAF4F0;
@@ -72,6 +72,7 @@ p {
   border-radius: 5px;
   padding: 10px;
   margin: 0 0 10px 0;
+  width: 100px;
 }
 
 @keyframes about-header-animation {
@@ -85,43 +86,43 @@ p {
 		transform: translateX(0);
 	}
 }
-
-@media only screen and (min-width:601px) and (max-width:2400px) {
-
-
+/* Tablet */
+@media only screen and (min-width:600px) and (max-width:1000px) {
   .about-row {
     justify-content:space-between;
     width: 100vw;
   }
   
   .aboutpage-title {
-    font-size: 200px;
-    margin-left: 200px;
+    font-size: 150px;
+    margin-left: 40px;
     margin-top: 150px;
   }
   
   img {
-    height: 500px;
-    width: 410px;
-    margin: 100px 40px  100px;
+    height: 400px;
+    width: 310px;
+    margin-right: 20px;
   }
   
   .description {
     width: 50%;
-    font-size: 50px;
-    margin: -300px 350px 200px 0;
+    font-size: 42px;
+    margin: -120px 300px 200px 0;
   }
   
   .about-me {
     font-size: 20px;
     width: 50%;
-    margin: -150px 350px 200px 0;
+    margin: -150px 300px 200px 0;
+    line-height: 25px;
   }
   
   .about-me-2 {
     font-size: 20px;
     width: 50%;
-    margin: -150px 350px 200px 0;
+    margin: -160px 300px 200px 0;
+    line-height: 25px;
   }
   
   .stack {
@@ -138,11 +139,70 @@ p {
     margin-top: 10px;
   }
   
-  .aboutpage-contact-btn {
-    font-size: 30px;
-    padding: 20px;
-    width: 300px;
+  .aboutpage-contact-btn, .aboutpage-projects-btn {
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
     margin-bottom: 30px;
   }
 
+}
+/* Desktop */
+@media only screen and (min-width:1000px) and (max-width:2400px) {
+  .about-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+  }
+  
+  .aboutpage-title {
+    font-size: 150px;
+    margin-left: 60px;
+  }
+  
+  img {
+    height: 400px;
+    width: 310px;
+  }
+  
+  .description {
+    width: 50%;
+    font-size: 42px;
+    margin: -120px 300px 200px 0;
+  }
+  
+  .about-me {
+    font-size: 20px;
+    width: 50%;
+    margin: -150px 300px 200px 0;
+    line-height: 25px;
+  }
+  
+  .about-me-2 {
+    font-size: 20px;
+    width: 50%;
+    margin: -160px 300px 200px 0;
+    line-height: 25px;
+  }
+  
+  .stack {
+    font-size: 35px;
+    margin-top: -80px;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+  
+  .stack-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .aboutpage-contact-btn, .aboutpage-projects-btn {
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
 }
