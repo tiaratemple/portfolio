@@ -8,12 +8,14 @@
   align-items: center;
   padding: 80px 0 100px 0;
   margin: 70px 0 10px 0;
+  animation: contact-content-animation 1s ease 0s 1 normal forwards;
 }
 
 .connect-title {
   font-family: "Italiana";
   font-weight: 100;
   margin-left: 20px;
+  animation: connect-stmt-animation 2s ease 0s 1 normal forwards;
 }
 
 .connect-p {
@@ -22,15 +24,101 @@
   margin: 30px 20px 10px 20px;
 }
 
-.connect-p-links {
-  font-family: "Montserrat";
-  margin: 5px 20px 10px 20px;
-}
-
 .connect-btn {
   background-color: #231F20;
   color: white;
   border: none;
   font-family: "Montserrat";
   margin-top: 50px;
+	height: 50px;
+	width: 60px;
+}
+
+.connect-btn:hover {
+	opacity: 0.5;
+}
+
+.contact-icon {
+	height: 2em;
+	width: 2em;
+}
+
+@keyframes connect-stmt-animation {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@keyframes contact-content-animation {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@media only screen and (min-width:601px) and (max-width:2400px) {
+
+	.connect-title {
+		font-size: 50px;
+	}
+
+	.connect-p {
+		font-size: 25px;
+	}
+
+	.connect-btn {
+		height: 80px;
+		width: 80px;
+	}
+
+	.contact-icon {
+		height: 3em;
+		width: 3em;
+	}
+
 }

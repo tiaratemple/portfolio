@@ -14,17 +14,17 @@ const ContactPage = () => {
       <div className="link-contaner">
         <a href="https://www.linkedin.com/in/tiaratempledev/">
           <button className="connect-btn">
-            <BsLinkedin size="2em" />
+            <BsLinkedin className="contact-icon" />
           </button>
         </a>
         <a href="https://github.com/tiaratemple">
           <button className="connect-btn">
-            <BsGithub size="2em" />
+            <BsGithub className="contact-icon" />
           </button>
         </a>
         <a href="mailto:tmtemple7@gmail.com">
           <button className="connect-btn">
-            <MdAlternateEmail size="2em" />
+            <MdAlternateEmail className="contact-icon" />
           </button>
         </a>
       </div>

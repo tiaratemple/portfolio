@@ -14,8 +14,8 @@ const Header = () => {
           <div className="nav-line"></div>
         </div>
         <div className="nav-right">
-          <div className="header-copyright">
-            <RiCopyrightLine size="10px" /> /2023
+          <div className="copy-icon">
+            <RiCopyrightLine /> /2023
           </div>
         </div>
       </nav>

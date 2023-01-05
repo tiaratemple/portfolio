@@ -38,6 +38,25 @@
   justify-content: flex-end;  
  }
  
- .header-copyright {
+ .copy-icon {
+  font-size: 10px;
   font-family: "Montserrat";
  }
+
+@media only screen and (min-width:601px) and (max-width:2400px) {
+
+  .nav-btn {
+    font-size: 20px;
+  }
+
+  .nav-line {
+    width: 150px;
+    height: 1px;
+    margin: 1px 10px 0 40px;
+  }
+
+  .copy-icon {
+    font-size: 15px;
+  }
+
+}

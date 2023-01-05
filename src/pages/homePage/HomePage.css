@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap'); 
 
-.homepage-content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  animation: home-content-animation 1s ease 0s 1 normal forwards;
 }
+
 
 .homepage-link-container {
   display: flex;
@@ -32,4 +31,52 @@
 .home-job-title {
   font-family: "Montserrat";
   margin: 5px 0 30px 30px;
+}
+
+@keyframes home-content-animation {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media only screen and (min-width:601px) and (max-width:2400px) {
+
+  .homepage-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+  }
+
+  .homepage-btn {
+    font-size: 150px;
+  }
+  
+  .name-jobtitle-container {
+    display: flex;
+    flex-direction: column;
+    align-items:right;
+    margin-left: 150px;
+  }
+  
+  .homepage-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 50px 0 0;
+  }
+  
+  .home-name {
+    font-size: 50px;
+  }
+  
+  .home-job-title {
+    font-size: 25px;
+  }
 }

@@ -23,3 +23,17 @@
 .project-btn:hover {
   font-style: italic;
 }
+
+@media only screen and (min-width:601px) and (max-width:2400px) {
+
+  .project-card-container {
+    width: 100vw;
+    height: 500px;
+    margin-top: 0;
+  }
+
+  .project-btn {
+    font-size: 100px;
+  }
+
+}

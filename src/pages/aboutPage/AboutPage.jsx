@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutPage.css";
 import spainpic from "../../assets/spainpic.jpeg";
+import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
@@ -32,6 +33,9 @@ const AboutPage = () => {
         <p>Typescript</p>
         <p>SQL</p>
       </div>
+      <Link to="/contact">
+        <button className="aboutpage-contact-btn">Contact me</button>
+      </Link>
     </div>
   );
 };

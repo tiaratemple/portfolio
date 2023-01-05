@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap'); 
 
 
+
 .aboutpage-content-container {
   display: flex;
   flex-direction: column;
@@ -18,6 +19,7 @@
   font-family: "Italiana";
   font-weight: 100;
   margin-right: 20px;
+  animation: about-header-animation 1s ease 0s 1 normal forwards;
 }
 
 img {
@@ -61,3 +63,86 @@ p {
   width: 80%;
 }
 
+.aboutpage-contact-btn {
+  font-family: "Italiana";
+  font-size: 15px;
+  color: #FAF4F0;
+  background-color: #231F20;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+@keyframes about-header-animation {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@media only screen and (min-width:601px) and (max-width:2400px) {
+
+
+  .about-row {
+    justify-content:space-between;
+    width: 100vw;
+  }
+  
+  .aboutpage-title {
+    font-size: 200px;
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  
+  img {
+    height: 500px;
+    width: 410px;
+    margin: 100px 40px  100px;
+  }
+  
+  .description {
+    width: 50%;
+    font-size: 50px;
+    margin: -300px 350px 200px 0;
+  }
+  
+  .about-me {
+    font-size: 20px;
+    width: 50%;
+    margin: -150px 350px 200px 0;
+  }
+  
+  .about-me-2 {
+    font-size: 20px;
+    width: 50%;
+    margin: -150px 350px 200px 0;
+  }
+  
+  .stack {
+    font-size: 35px;
+    margin: -150px 450px 200px 0;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .stack-container {
+    width: 30%;
+    margin: -150px 450px 30px 0;
+  }
+  
+  .aboutpage-contact-btn {
+    font-size: 30px;
+    padding: 20px;
+    margin: 0 450px 200px 0;
+    width: 300px;
+  }
+
+}
