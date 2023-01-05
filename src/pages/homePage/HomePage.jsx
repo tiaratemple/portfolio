@@ -11,13 +11,13 @@ const HomePage = () => {
           <p className="home-job-title">Frontend Developer</p>
         </div>
         <div className="homepage-link-container">
-          <Link to="/about">
+          <Link to="/about" className="link-styles">
             <button className="homepage-btn">ABOUT</button>
           </Link>
-          <Link to="/projects">
+          <Link to="/projects" className="link-styles">
             <button className="homepage-btn">PROJECTS</button>
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" className="link-styles">
             <button className="homepage-btn">CONTACT</button>
           </Link>
         </div>
