@@ -126,7 +126,7 @@ p {
   
   .stack {
     font-size: 35px;
-    margin: -150px 450px 200px 0;
+    margin-top: -80px;
   }
   
   p {
@@ -134,15 +134,15 @@ p {
   }
   
   .stack-container {
-    width: 30%;
-    margin: -150px 450px 30px 0;
+    width: 100%;
+    margin-top: 10px;
   }
   
   .aboutpage-contact-btn {
     font-size: 30px;
     padding: 20px;
-    margin: 0 450px 200px 0;
     width: 300px;
+    margin-bottom: 30px;
   }
 
 }

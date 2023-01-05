@@ -36,11 +36,13 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;  
+  font-family: "Montserrat";
+  align-items: center;
  }
  
  .copy-icon {
-  font-size: 10px;
-  font-family: "Montserrat";
+  height: 10px;
+  width: 10px;
  }
 
 @media only screen and (min-width:601px) and (max-width:2400px) {
@@ -59,4 +61,13 @@
     font-size: 15px;
   }
 
+  .nav-right {
+    font-size: 20px;
+    align-items: center;
+   }
+   
+   .copy-icon {
+    height: 15px;
+    width: 15px;
+   }
 }

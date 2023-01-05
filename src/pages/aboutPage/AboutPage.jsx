@@ -31,7 +31,8 @@ const AboutPage = () => {
         <p>Node</p>
         <p>CSS</p>
         <p>Typescript</p>
-        <p>SQL</p>
+        <p>Postgres</p>
+        <p>Express</p>
       </div>
       <Link to="/contact">
         <button className="aboutpage-contact-btn">Contact me</button>

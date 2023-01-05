@@ -14,9 +14,7 @@ const Header = () => {
           <div className="nav-line"></div>
         </div>
         <div className="nav-right">
-          <div className="copy-icon">
-            <RiCopyrightLine /> /2023
-          </div>
+          <RiCopyrightLine className="copy-icon" /> /2023
         </div>
       </nav>
     </header>
