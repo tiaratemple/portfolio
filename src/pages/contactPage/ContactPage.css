@@ -5,10 +5,15 @@
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 80px 0 100px 0;
   margin: 70px 0 10px 0;
   animation: contact-content-animation 1s ease 0s 1 normal forwards;
+}
+
+.contact-top-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .connect-title {
@@ -20,27 +25,36 @@
 
 .connect-p {
   font-family: "Montserrat";
-  color: white;
+  color: #FAF4F0;
   margin: 30px 20px 10px 20px;
 }
 
-.connect-btn {
-  background-color: #231F20;
-  color: white;
-  border: none;
-  font-family: "Montserrat";
-  margin-top: 50px;
-	height: 50px;
-	width: 60px;
+.contact-page-link-container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
 }
 
-.connect-btn:hover {
+.contact-links {
+	color: #FAF4F0;
+}
+
+.contact-links:visited {
+	color: #FAF4F0;
+}
+
+.contact-links:active {
+	color: #FAF4F0;
+}
+
+.contact-links:hover {
 	opacity: 0.5;
 }
 
 .contact-icon {
 	height: 2em;
 	width: 2em;
+	color: #FAF4F0;
 }
 
 @keyframes connect-stmt-animation {
@@ -111,7 +125,7 @@
 		font-size: 25px;
 	}
 
-	.connect-btn {
+	.contact-links {
 		height: 80px;
 		width: 80px;
 	}

@@ -12,17 +12,6 @@ body {
   margin: 0 0 100px 10px;
 }
 
-.homepage-btn {
-  font-family: "Italiana";
-  font-size: 80px;
-  border: none;
-  background-color: #FAF4F0;
-}
-
-.homepage-btn:hover {
-  font-style: italic;
-}
-
 .home-name {
   font-family: "Montserrat";
   margin: 100px 0 0 30px;
@@ -34,7 +23,21 @@ body {
 }
 
 .link-styles {
+  font-family: "Italiana";
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.link-styles:visited {
   color: black;
+}
+
+.link-styles:active {
+  color: black;
+}
+
+.link-styles:hover {
+  font-style: italic;
 }
 
 @keyframes home-content-animation {
@@ -57,7 +60,7 @@ body {
     align-items:left;
   }
 
-  .homepage-btn {
+  .link-styles {
     font-size: 150px;
   }
   

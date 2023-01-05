@@ -14,14 +14,22 @@
   align-items: center;
  }
  
- .nav-btn {
+ .nav-link {
   font-family: "Montserrat";
   font-size: 15px;
-  border: none;
-  background-color: #FAF4F0;
+  text-decoration: none;
+  margin-right: 5px;
  }
 
- .nav-btn:hover {
+ .nav-link:visited {
+  color:black;
+ }
+
+ .nav-link:active {
+  color: black;
+ }
+
+ .nav-link:hover {
   text-decoration: line-through;
  }
 

@@ -12,13 +12,13 @@ const HomePage = () => {
         </div>
         <div className="homepage-link-container">
           <Link to="/about" className="link-styles">
-            <button className="homepage-btn">ABOUT</button>
+            ABOUT
           </Link>
           <Link to="/projects" className="link-styles">
-            <button className="homepage-btn">PROJECTS</button>
+            PROJECTS
           </Link>
           <Link to="/contact" className="link-styles">
-            <button className="homepage-btn">CONTACT</button>
+            CONTACT
           </Link>
         </div>
       </div>

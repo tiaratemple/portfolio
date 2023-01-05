@@ -63,7 +63,7 @@ p {
   width: 80%;
 }
 
-.aboutpage-contact-btn, .aboutpage-projects-btn {
+.about-contact-link, .about-prj-link {
   font-family: "Italiana";
   font-size: 15px;
   color: #FAF4F0;
@@ -73,6 +73,20 @@ p {
   padding: 10px;
   margin: 0 0 10px 0;
   width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-contact-link:visited, .about-prj-link:visited {
+  color: #FAF4F0;
+}
+
+.about-contact-link:active, .about-prj-link:active {
+  color: #FAF4F0;
+}
+
+.about-contact-link:hover, .about-prj-link:hover {
+  opacity: 0.5;
 }
 
 @keyframes about-header-animation {
@@ -139,7 +153,7 @@ p {
     margin-top: 10px;
   }
   
-  .aboutpage-contact-btn, .aboutpage-projects-btn {
+ .about-contact-link, .about-prj-link {
     font-size: 20px;
     padding: 15px;
     width: 150px;
@@ -199,7 +213,7 @@ p {
     margin-top: 10px;
   }
   
-  .aboutpage-contact-btn, .aboutpage-projects-btn {
+  .about-contact-link, .about-prj-link {
     font-size: 20px;
     padding: 15px;
     width: 200px;

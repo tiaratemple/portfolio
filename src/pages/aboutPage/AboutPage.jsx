@@ -34,11 +34,11 @@ const AboutPage = () => {
         <p>Postgres</p>
         <p>Express</p>
       </div>
-      <Link to="/projects">
-        <button className="aboutpage-projects-btn">Projects</button>
+      <Link to="/projects" className="about-prj-link">
+        Projects
       </Link>
-      <Link to="/contact">
-        <button className="aboutpage-contact-btn">Contact me</button>
+      <Link to="/contact" className="about-contact-link">
+        Contact me
       </Link>
     </div>
   );

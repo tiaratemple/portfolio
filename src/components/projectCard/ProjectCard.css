@@ -11,16 +11,23 @@
   margin-top: 20px;
 }
 
-.project-btn {
+.project-card-links {
   color: #FAF4F0;
-  background-color: #231F20;
   font-family: "Italiana";
-  border: none;
   font-size: 50px;
-  font-weight: 100; 
+  font-weight: 100;
+  text-decoration: none;
 }
 
-.project-btn:hover {
+.project-card-links:visited {
+  color: #FAF4F0;
+}
+
+.project-card-links:active {
+  color: #FAF4F0;
+}
+
+.project-card-links:hover {
   font-style: italic;
 }
 
@@ -32,8 +39,8 @@
     margin-top: 0;
   }
 
-  .project-btn {
-    font-size: 100px;
+  .project-card-links {
+    font-size: 80px;
   }
 
 }
