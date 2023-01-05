@@ -26,6 +26,7 @@ body {
   font-family: "Italiana";
   font-size: 80px;
   text-decoration: none;
+  color: black;
 }
 
 .link-styles:visited {
