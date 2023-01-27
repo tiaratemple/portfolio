@@ -6,6 +6,12 @@ const ProjectCard = () => {
     <div className="project-card-wrapper">
       <div className="project-card-container">
         <a
+          href="https://grand-selkie-9e0323.netlify.app"
+          className="project-card-links"
+        >
+          Pixel Perfect Mock Landing Page
+        </a>
+        <a
           href="https://share.vidyard.com/watch/GqfqK4JZ7U91Bsf7WU4A3H?"
           className="project-card-links"
         >
