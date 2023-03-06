@@ -5,10 +5,7 @@ const ProjectCard = () => {
   return (
     <div className="project-card-wrapper">
       <div className="project-card-container">
-        <a
-          href="https://everlyhi-tiaratemple.vercel.app/"
-          className="project-card-links"
-        >
+        <a href="https://everlyinspections.com/" className="project-card-links">
           Everly Home Inspections
         </a>
         <a
