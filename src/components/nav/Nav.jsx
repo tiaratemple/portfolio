@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import { RiCopyrightLine } from "react-icons/ri";
+import Themes from "../themes/Themes";
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
         <div className="nav-line"></div>
       </div>
       <div className="nav-right">
-        <RiCopyrightLine className="copy-icon" /> /2023
+        <Themes />
       </div>
     </nav>
   );
