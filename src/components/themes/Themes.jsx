@@ -10,6 +10,8 @@ const Themes = () => {
     setTheme(!theme);
   };
 
+  //set theme in local storage and verify it persists after refreshing
+
   return (
     <div>
       {theme ? (

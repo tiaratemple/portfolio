@@ -21,7 +21,7 @@ const ProjectCard = () => {
           Lore
         </a>
         <a
-          href="https://share.vidyard.com/watch/VMbBdio3xECoT8geoEYp52?"
+          href="https://yougrowgirl.herokuapp.com/"
           className="project-card-links"
         >
           You Grow Girl
