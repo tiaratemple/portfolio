@@ -2,6 +2,7 @@
 
 body {
   animation: home-content-animation 1s ease 0s 1 normal forwards;
+  background-color:#FAF4F0;
 }
 
 
@@ -9,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin: 0 0 100px 10px;
+  margin-left: 10px;
 }
 
 .home-name {
@@ -26,18 +27,37 @@ body {
   font-family: "Italiana";
   font-size: 80px;
   text-decoration: none;
-  color: black;
+   color: black; 
 }
+
+.dark-mode-styles {
+  font-family: "Italiana";
+  font-size: 80px;
+  text-decoration: none;
+  color: white;
+}
+
+.dark-mode-styles:visited {
+  color: white;
+} 
+
+.dark-mode-styles:active {
+  color: white;
+} 
 
 .link-styles:visited {
   color: black;
-}
+} 
 
 .link-styles:active {
   color: black;
-}
+} 
 
 .link-styles:hover {
+  font-style: italic;
+}
+
+.dark-mode-styles:hover {
   font-style: italic;
 }
 

@@ -63,11 +63,34 @@ p {
   width: 80%;
 }
 
+.dark-mode-stack-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  margin-bottom: 40px;
+  width: 80%;
+}
+
 .about-contact-link, .about-prj-link {
   font-family: "Italiana";
   font-size: 15px;
   color: #FAF4F0;
   background-color: #231F20;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dark-mode-about-links {
+  font-family: "Italiana";
+  font-size: 15px;
+  color: black;
+  background-color: #FAF4F0;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -88,6 +111,11 @@ p {
 .about-contact-link:hover, .about-prj-link:hover {
   opacity: 0.5;
 }
+
+.dark-mode-about-links:hover {
+  opacity: .5;
+}
+
 
 @keyframes about-header-animation {
 	0% {
@@ -209,7 +237,7 @@ p {
   }
   
   .stack-container {
-    width: 100%;
+    width: 80%;
     margin-top: 10px;
   }
   

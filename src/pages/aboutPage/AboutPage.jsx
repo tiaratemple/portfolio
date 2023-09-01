@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./AboutPage.css";
 import spainpic from "../../assets/spainpic.jpeg";
 import { Link } from "react-router-dom";
+import { ToggleThemeContext } from "../../components/themes/ThemesContext";
 
 const AboutPage = () => {
+  const { data, setData } = useContext(ToggleThemeContext);
+
   return (
     <div className="aboutpage-content-container">
       <div className="about-row">
@@ -25,7 +28,11 @@ const AboutPage = () => {
         is an opportunity to learn, grow, and overcome obstacles.
       </p>
       <h3 className="stack">Stack</h3>
-      <div className="stack-container">
+      <div
+        className={
+          data.darkMode ? "dark-mode-stack-container" : "stack-container"
+        }
+      >
         <p>React</p>
         <p>Javascript</p>
         <p>Node</p>
@@ -34,10 +41,18 @@ const AboutPage = () => {
         <p>Postgres</p>
         <p>Express</p>
       </div>
-      <Link to="/projects" className="about-prj-link">
+      <Link
+        to="/projects"
+        className={data.darkMode ? "dark-mode-about-links" : "about-prj-link"}
+      >
         Projects
       </Link>
-      <Link to="/contact" className="about-contact-link">
+      <Link
+        to="/contact"
+        className={
+          data.darkMode ? "dark-mode-about-links" : "about-contact-link"
+        }
+      >
         Contact me
       </Link>
     </div>

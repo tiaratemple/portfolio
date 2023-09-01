@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap'); 
-
 .contact-content-container {
   background-color: #231F20;
   color: white;
   display: flex;
   flex-direction: column;
   padding: 80px 0 100px 0;
-  margin: 70px 0 10px 0;
+  margin: 70px 0 0 0;
+  animation: contact-content-animation 1s ease 0s 1 normal forwards;
+}
+
+.dark-mode-contact-container {
+	background-color: #231F20;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0 100% 0;
+  margin: 70px 0 0 0;
   animation: contact-content-animation 1s ease 0s 1 normal forwards;
 }
 

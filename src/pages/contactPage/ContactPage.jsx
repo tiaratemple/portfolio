@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ContactPage.css";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { MdAlternateEmail } from "react-icons/md";
+import { ToggleThemeContext } from "../../components/themes/ThemesContext";
 
 const ContactPage = () => {
+  const { data, setData } = useContext(ToggleThemeContext);
+
   return (
-    <div className="contact-content-container">
+    <div
+      className={
+        data.darkMode
+          ? "dark-mode-contact-container"
+          : "contact-content-container"
+      }
+    >
       <div className="contact-top-text-container">
         <h1 className="connect-title">Connect with me.</h1>
         <p className="connect-p">
