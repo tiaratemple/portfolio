@@ -8,7 +8,13 @@ const AboutPage = () => {
   const { data, setData } = useContext(ToggleThemeContext);
 
   return (
-    <div className="aboutpage-content-container">
+    <div
+      className={
+        data.darkMode
+          ? "dark-mode-about-container"
+          : "aboutpage-content-container"
+      }
+    >
       <div className="about-row">
         <h1 className="aboutpage-title">About</h1>
         <img src={spainpic} alt="me in Spain in greenhouse" />

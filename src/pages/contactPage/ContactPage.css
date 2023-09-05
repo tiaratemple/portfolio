@@ -14,7 +14,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 80px 0 100% 0;
+  padding-top: 80px;
   margin: 70px 0 0 0;
   animation: contact-content-animation 1s ease 0s 1 normal forwards;
 }

@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: center;
   animation: project-content-animation 1s ease 0s 1 normal forwards;
-	padding-bottom: 100%;
 }
 
 .project-title {
